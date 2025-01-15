@@ -1,0 +1,26 @@
+#main{
+    background-color: rgb(30, 30, 30);
+    justify-content: center;
+    align-items: center;
+
+}
+
+#headbox{
+    align-items: center;
+    justify-content: center;
+    background-color: aqua;
+    width: 500px;
+    height: 100px;
+   
+
+}
+#heading{
+    justify-content: center;
+    align-items: center;
+    background-color: bisque;
+    width: 500px;
+
+}
+#second{
+    background-color: brown;
+}
