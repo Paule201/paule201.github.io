@@ -1,41 +1,156 @@
 #main{
     background-color: rgb(30, 30, 30);
     margin: 50px;
+    
+}
+.colorbox{
+    height: 50px;
+    width: 15%;
+    background-color: green;
+    margin-left:  10px;
+    margin-right: 10px;
+    text-align: center;
+    line-height: 50px;
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 23px;
+    font-weight: bolder;
+    border-radius: 5px;
+    min-width: 100px;
+
+    
+}
+#colorgreen{
+    background-color: green;
+}
+#colorblue{
+    background-color: blue;
+}
+#colorpurple{
+    background-color: purple;
+}
+#colorred{
+    background-color: red;
+}
+.colorname{
+    justify-content: center;
+    align-items: center;
+    display: flex;
 }
 #heading{
     justify-self: center;
     align-items: center;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
+    color: rgb(207, 207, 207);
     width: 45%;
-    min-width: 400px;
     background-color: rgb(51, 51, 51);
     font-size: 40px;
     cursor: cell;
     border-radius: 15px;
     border-style: solid;
     border-width: 2px;
-    border-color: rgb(54, 146, 92);
+    border-color: rgb(54, 146, 92)
+    
 }
+.projectheading{
+    justify-self: center;
+    align-items: center;
+    text-align: center;
+    color: aliceblue;
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    line-height: 80px;
+    width: 80px;
+    height: 80px;
+    border-radius: 100px;
+    background-color: rgb(71, 71, 71);
+}
+.projectname{
+    color: white;
+    text-decoration-line: underline;
+    padding: 5px;
+}
+.projecttextbackground{
+    height: 280px;
+    background-color: rgb(44, 44, 44);
+    border-radius: 15px;
+    width: 350px;
+    justify-self: center;
+    align-items: center;
+    overflow-y: scroll;
+    
+}
+.projecttextbackground::-webkit-scrollbar{
+    display: none; /* Hide scrollbar for Chrome, Safari and Opera */
+}
+.projecttextbackground{
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
+
 .projects{
+    justify-self: center;
+    align-items: center;
+    text-align: center;
     height: 500px;
     width: 400px;
     background-color: rgb(51, 51, 51);
-    padding: 5px;
     border-radius: 15px;
     border-style: solid;
     border-width: 2px;
     border-color: rgb(54, 146, 92);
+    padding: 5px;
+    margin: 10px; 
+}
+
+.text{
+    color: rgb(161, 161, 161);
+    text-align: center;
+    font-size: larger;
+    padding: 5px;
+}
+.mainprogressdiv{
+    margin-top: 20px;
+    justify-self: center;
+    align-items: center;
+    height: 50px;
+    width: 350px;
+    background-color: rgb(44, 44, 44);
+    border-radius: 100px;
+    
+}
+#one{
+    width: 60%;
+}
+#three{
+    width: 1%;
+}
+#two{
+    width: 30%;
+}
+.progressbar{
+    color: rgb(126, 147, 165);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    line-height: 35px;
     margin: 10px;
+    background-color: rgb(15, 114, 15);
+    height: 35px;
+    width: 50%;
+    border-radius: 100px;
+    
 }
 #projectone{
-    border-color: rgb(54, 146, 92);
+    border-color: blue;
 }
 #projecttwo{
-    border-color: rgb(211, 224, 20);
+    border-color: blue;
 }
 #projecthrow{
-    border-color: rgb(230, 25, 10);
+    border-color: purple;
 }
 #container{
     display: flex;
@@ -43,4 +158,5 @@
     justify-self: center;
     align-items: center;
     text-align: center;
+    
 }
