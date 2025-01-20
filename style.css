@@ -4,12 +4,16 @@
     
 }
 #iconbackground{
+    border-color: rgb(160, 160, 160);
     background-color: rgb(71, 71, 71);
+    border-width: 1px;
+    border-style: solid;
     width: 80px;
     height: 80px;
     border-radius: 100px;
     line-height: 70px;
     margin: 5px;
+    
     
 }
 .projectheadingcase{
@@ -54,6 +58,8 @@
     justify-content: center;
     align-items: center;
     display: flex;
+    flex-wrap: wrap;
+    text-align: center;
 }
 #heading{
     justify-self: center;
@@ -78,6 +84,10 @@
     align-items: center;
     text-align: center;
     color: aliceblue;
+    border-color: rgb(158, 158, 158);
+    background-color: rgb(71, 71, 71);
+    border-width: 1px;
+    border-style: solid;
     font-size: 60px;
     font-family: 'Times New Roman', Times, serif;
     font-weight: bold;
@@ -85,7 +95,6 @@
     width: 80px;
     height: 80px;
     border-radius: 100px;
-    background-color: rgb(71, 71, 71);
     margin: 5px;
 
 }
@@ -182,5 +191,5 @@
     justify-self: center;
     align-items: center;
     text-align: center;
-    
+    margin: 5px;
 }
